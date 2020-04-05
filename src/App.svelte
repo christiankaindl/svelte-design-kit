@@ -13,6 +13,8 @@
     font-size: 1rem;
     -webkit-tap-highlight-color: transparent;
 		text-align: center;
+		padding: 0;
+		margin: 0;
   }
   :global(*) {
     box-sizing: border-box;
@@ -24,7 +26,7 @@
 	<h2>Start editing to see some magic happen!</h2>
   <UIAlert bind:triggerAlert>
     <span slot='title'>Device Offline</span>
-    <span slot='text'>Your device has no connection to the Internet. Some features may not be available.</span>
+    <span slot='text'>Your device is not connected to the Internet. Some features may not be available.</span>
     <UIAlertAction primary>
       Close
     </UIAlertAction>
