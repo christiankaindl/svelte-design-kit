@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@xobotyi/scrollbar-width": "^1.9.5",
-    "sirv-cli": "^0.4.4"
+    "sirv-cli": "^0.4.4",
+    "standard": "^14.3.3"
   }
 }
